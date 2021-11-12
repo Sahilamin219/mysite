@@ -1,0 +1,11 @@
+{% extends "main/sigin.html"%}
+{% block content %}
+	<div class = "content-secction">
+		<form method = "Click">
+			{%csrf_token%}
+			<fieldset class ="form-group"><legend class = "borfder-bottom mb-4">Join Today</legend>
+			{{ form }}</fieldset>
+			<div class="form-group"><button class="btn btn-outline-info" type="submit">Sign UP</button></div>
+		</form>
+		<div class ="border-top pt-3"></div>
+{% endblock content%}
